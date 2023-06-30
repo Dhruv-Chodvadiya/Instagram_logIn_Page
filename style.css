@@ -1,0 +1,104 @@
+html,
+body {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+.box {
+  /* background:red; */
+  height: 100vh;
+}
+.box1{
+  text-align: center;
+  width: 350px;
+  height: 100%;
+  /* background-color: rgb(255, 255, 255); */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);   
+}
+.child{
+    /* background-color: aqua; */
+    height: 400px;
+    margin-top: 100px;
+    border: 1px solid rgba(128, 128, 128, 0.562);
+    border-radius: 2px;
+}
+img{
+    height: 150px;
+}
+.textarea{
+    height: 35px;
+    width: 280px;
+    font-size: 12px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.562);
+    border-radius: 2px;
+    text-decoration: none;
+}
+#btn{
+    height: 35px;
+    margin-top: 10px;
+    padding: 0px;
+    width: 290px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.562);
+    background-color: #609bfaf3 ;
+    color: aliceblue;
+    font-weight: 700;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#forgotten{
+    margin-top: 30px;
+    text-decoration: none; 
+    color: rgb(2, 44, 99);
+    font-size: 12px;
+    letter-spacing: 0.7px;
+}
+#facebook{
+    height: 30px;
+}
+.line{
+    /* text-align: center; */
+    height: 35px;
+    width: 280px;
+    margin-left: 35px;
+}
+label{
+    color: #2f55a4;
+    display: block;
+    font-size: 12px;
+    height: 60px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    letter-spacing: 0.7PX;
+}
+.singUP{
+    border-radius: 2px;
+    border:  1px solid rgba(128, 128, 128, 0.562);
+    margin-top: 20px;
+    height: 70px;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 0.8PX;
+}
+
+.sing{
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+    
+}
+
+p{
+    font-size: 15px;
+}
+
+
